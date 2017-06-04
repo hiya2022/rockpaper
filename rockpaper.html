@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Guesser</title>
+  <link rel = "stylesheet" type = "text/css" href = "wordStory.css" />
+
+</head>
+<header id="main">
+<div id="logo"> </div>
+
+           <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li id="games">
+                    <a href="games.html">Games</a>
+                    <ul id="games-sub">
+                        <li><a href="greet.html">Greetings</a></li>
+              <li><a href="primitive-games.html">Primitive Game</a></li>    
+                        <li><a href="wordstory.html">Word Story</a></li>
+                        <li><a href="guesser.html">Guess My Number</a></li> 
+                        <li><a href="random-numbers.html">Random Numbers</li>
+                        <li><a href="rockpaper.html">Rock, Paper or Scissors</a></li>
+                    </ul>
+                </li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div></header>
+        </div></header>
+    </div>
+       <article id="content2">
+
+		<h1>Rock, Paper or Scissors</h1>
+    
+      <div class="tenor-gif-embed" data-postid="4954978" data-share-method="host" data-width="50%" data-aspect-ratio="1.7412587412587412"><a href="https://tenor.com/view/rock-paper-scissors-games-gif-4954978">Rock Paper GIF</a> from <a href="https://tenor.com/search/rock-gifs">Rock GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+   		<p>In this game, you have three choices: rock, paper or scissors.  You will be playing against the computer.   </p>
+   		<p>Good luck!!</p>
+    </br></br>
+ 
+    <script src='js/rockpaper.js'></script>
+ <button onclick="mySuperCoolFunction();" > Click me to play</button>
+   <p id="demo"></p>
+ <script>
+ function mySuperCoolFunction();{
+var choice = prompt("Do you choose rock, paper or scissors?");
+var txt;
+if (choice == null || choice == "") {
+    txt = "Please enter: rock, paper or scissors";
+} else if (choice == "rock"){
+    txt = "You entered " + choice + ". Good luck!";
+} else if (choice == "paper"){
+    txt = "You entered " + choice + ". Good luck!";
+} else if (choice == "scissors"){
+   txt = "You entered " + choice + ". Good luck!";
+} else {
+  txt = "Please check your speeking and enter: rock, paper or scissors";}
+  document.getElementById("demo").innerHTML = userChoice;}
+
+
+  </script>
+
+ 
+    	</p></p>
+</article>
+
+	<footer class="site-footer">
+
+          <div id="col1" class="footer-col"> Copyright &copy; 2014</div>
+<p>Created & Designed By Laura Michelson</p>
+	</div>
+	</footer>
+	</div>
+</div>
+</body>
+</html>
