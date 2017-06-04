@@ -1,0 +1,21 @@
+    <script src='js/rockpaper.js'></script>
+ <button onclick="mySuperCoolFunction();" > Click me to play</button>
+   <p id="demo"></p>
+ <script>
+ function mySuperCoolFunction();{
+var choice = prompt("Do you choose rock, paper or scissors?");
+var txt;
+if (choice == null || choice == "") {
+    txt = "Please enter: rock, paper or scissors";
+} else if (choice == "rock"){
+    txt = "You entered " + choice + ". Good luck!";
+} else if (choice == "paper"){
+    txt = "You entered " + choice + ". Good luck!";
+} else if (choice == "scissors"){
+   txt = "You entered " + choice + ". Good luck!";
+} else {
+  txt = "Please check your speeking and enter: rock, paper or scissors";}
+  document.getElementById("demo").innerHTML = userChoice;}
+
+
+  </script>
